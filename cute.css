@@ -96,6 +96,7 @@ button:hover {
     height: 40px;
     margin-left: 50px;
     margin-top: 7px;
+    position: static;
 }
 span{
     position: absolute;
