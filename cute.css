@@ -1,0 +1,140 @@
+a{
+    text-decoration: none;
+    color: rgb(6, 6, 82);
+}
+a:hover{
+    font-weight: bold;
+}
+
+button{
+    font-family: 'Poppins';
+    background-color: rgb(88, 123, 236);
+    border-color: rgb(94, 40, 221);
+    border-style: solid;
+    border-width: 1px;
+    color: rgb(238, 236, 245);
+    height: 36px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+
+    transition: background-color 0s,
+    color 0.15s;
+}
+button:hover {
+  background-color: rgb(240, 180, 255);
+  color: rgb(7, 49, 139);
+  cursor: pointer;
+  text-decoration: none;
+}
+    
+.header{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    border: 1px solid white;
+    background-color: rgb(202, 222, 236);
+    border-color: gray;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hd1{
+    width: 200px;
+    margin-left: 20px;
+    background-color: none;
+}
+.pic{
+    height: 38px;
+    width: 52px;
+    background-color: transparent;
+    margin-top: 0;
+}
+
+
+
+
+.hd2{
+    display: flex;
+    flex: 1;
+    max-width: 200px;
+    background-color: none;
+    margin-left: 0;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.sidebar{
+    margin-top: 5px;
+    height: 20px;
+    width: 30px;
+    background-color: none;
+}
+
+
+
+
+.hd3{
+    font-family: 'poppins';
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: 50px 50px
+}
+
+
+.cart{
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 7px;
+}
+
+
+.products{
+    display: flex;
+    justify-content: space-evenly;
+}
+table{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    text-align: center;
+    font-family: 'Poppins'; 
+    margin-bottom: 30px;
+}
+img{
+    width: 400px;
+    border-radius: 40px;
+}
+.add-to-cart{
+    padding-bottom: 100px;
+}
+
+
+.name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.middle{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.message{
+    font-family: 'poppins';
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(207, 207, 255);
+}
+

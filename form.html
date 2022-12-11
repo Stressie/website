@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Check Out</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <style>
+
+  * {
+      box-sizing: border-box;
+    }
+      body {
+      font-family: Arial;
+      font-size: 17px;
+      height: 630px;
+      background: linear-gradient( rgb(214, 239, 255), #dfd9fd, #e9c7fd , #c2e7eb);
+    }
+    
+    
+    .container {
+      box-shadow: 2px 3px 5px 4px #bfbdcc;
+      background-color: #b0d8f3;
+      padding: 5px 20px 15px 20px;
+      border: 1px solid #4590d6;
+      border-radius: 3px;
+      max-width: 1000px;
+      margin-left: 200px;
+      margin-top: 80px;
+    }
+
+    .row {
+      display: -ms-flexbox; /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap; /* IE10 */
+      flex-wrap: wrap;
+      margin: 0 -16px;
+    }
+
+    .col-50 {
+      -ms-flex: 50%; /* IE10 */
+      flex: 50%;
+      padding: 0 16px;
+    }
+
+    
+
+    input[type=text] {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    label {
+      margin-bottom: 10px;
+      display: block;
+    }
+
+
+    .btn {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      width: 100%;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 17px;
+    }
+
+    .btn:hover {
+      background-color: #45a08c;
+    }
+
+
+    button{
+      border-radius: 15px;
+      border-color: transparent;
+      background-color: transparent;
+      padding: 5px;
+
+    }
+    button:hover{
+      background-color: #3a94b8;;
+      color: white;
+      font-weight: bold;
+    }
+
+
+    </style>
+
+</head>
+
+<body >
+
+
+        <div class="container">
+
+            <div class="row">
+              <div class="col-50">
+                <h3>Delivery Address</h3>
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Enter Full Name">
+                <label for="email"><i class="fa fa-envelope"></i>Contact No.</label>
+                <input type="text" id="email" name="email" placeholder="0900 000 0000">
+                <label for="adr"><i class="fa fa-address-card-o"></i>Street No./ Baranggay</label>
+                <input type="text" id="adr" name="address" placeholder="Enter Street No./ Baranggay ">
+                <label for="city"><i class="fa fa-institution"></i>City</label>
+                <input type="text" id="city" name="city" placeholder="Enter City">
+                <label for="zip">Zip Code</label>
+                <input type="text" id="zip" name="zip" placeholder="Enter Zip Code">
+              
+              </div>
+
+              <div class="col-50">
+                <h3>Payment</h3>
+
+                <label>
+                  <input type="checkbox" name="checkArr[]" value="Apple">
+                    Gcash
+                    <input type="checkbox" name="checkArr[]" value="Apple">
+                    COD
+                </label>
+          
+                <br>
+                <label for="ccnum">Phone number</label>
+                <input type="text" id="ccnum" name="cardnumber" placeholder="0900 000 0000">
+              <label>
+                <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+              </label>
+              <input type="submit" value="Continue to checkout" class="btn">
+
+              <p>
+                <strong> Note: </strong> As of now we only deliver in Metro Manila.
+                In case you still want to order and you are outside Metro Manila
+                please message us first so that we can talk how we can deliver it to you.
+              </p>
+
+             
+            <br>
+            <a link href="shop_cart.html" target="_self">
+                <button> < Back to Cart</button>
+            </a>
+          </div>
+        </div>
+
+  </body>
+</html>
